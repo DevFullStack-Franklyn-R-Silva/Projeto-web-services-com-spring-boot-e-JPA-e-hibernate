@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.franklyn.course.entities.User;
 
-//teste resposito
 @Repository 
 public interface UserRepository extends JpaRepository<User, Long> {
 	
