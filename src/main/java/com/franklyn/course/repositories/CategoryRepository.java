@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.franklyn.course.entities.Category;
 
-@Repository 
+@Repository
 public interface CategoryRepository extends JpaRepository<Category, Long> {
-	
+
 }

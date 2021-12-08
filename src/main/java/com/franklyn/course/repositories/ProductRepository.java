@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.franklyn.course.entities.Product;
 
-@Repository 
+@Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
-	
+
 }

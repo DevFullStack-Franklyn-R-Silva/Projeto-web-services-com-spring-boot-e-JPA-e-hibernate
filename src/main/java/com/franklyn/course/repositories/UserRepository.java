@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.franklyn.course.entities.User;
 
-@Repository 
+@Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-	
+
 }

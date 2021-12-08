@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.franklyn.course.entities.Order;
 
-@Repository 
+@Repository
 public interface OrderRepository extends JpaRepository<Order, Long> {
-	
+
 }
