@@ -12,7 +12,6 @@ import com.franklyn.course.entities.pk.OrderItemPK;
 @Entity
 @Table(name = "tb_order_item")
 public class OrderItem implements Serializable {
-
 	private static final long serialVersionUID = 1L;
 
 	@EmbeddedId
@@ -33,7 +32,7 @@ public class OrderItem implements Serializable {
 		this.price = price;
 	}
 
-	@JsonIgnore
+	
 	public Order getOrder() {
 		return id.getOrder();
 	}
@@ -42,6 +41,7 @@ public class OrderItem implements Serializable {
 		id.setOrder(order);
 	}
 
+	@JsonIgnore
 	public Product getProduct() {
 		return id.getProduct();
 	}
