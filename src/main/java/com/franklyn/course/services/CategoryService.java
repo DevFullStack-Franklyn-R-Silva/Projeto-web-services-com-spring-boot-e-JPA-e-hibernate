@@ -1,0 +1,28 @@
+package com.franklyn.course.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.franklyn.course.entities.Category;
+import com.franklyn.course.entities.Order;
+import com.franklyn.course.repositories.CategoryRepository;
+import com.franklyn.course.repositories.OrderRepository;
+
+@Service
+public class CategoryService {
+
+	@Autowired
+	private CategoryRepository categoryRepository;
+
+	public List<Category> findAll() {
+		return categoryRepository.findAll();
+	}
+
+	public Category findById(Long id) {
+		Optional<Category> obj = categoryRepository.findById(id);
+		return obj.get();
+	}
+}
