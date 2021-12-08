@@ -37,7 +37,6 @@ public class Product implements Serializable {
 	private Set<OrderItem> items = new HashSet<>();
 
 	public Product() {
-		super();
 	}
 
 	public Product(Long id, String name, String description, Double price, String imgUrl) {
