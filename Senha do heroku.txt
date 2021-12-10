@@ -1,0 +1,11 @@
+postgres://
+
+smxssokviexlbb
+
+71f2e4b5afed1fec3bef9f2fc97ddc7e6b4d0c0fd94f089de29b0a36d7d33e3b
+
+ec2-18-210-159-154.compute-1.amazonaws.com
+
+5432
+
+daiqbrq0g2o96e
