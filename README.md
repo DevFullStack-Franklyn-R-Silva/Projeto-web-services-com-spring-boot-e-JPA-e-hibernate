@@ -27,3 +27,6 @@
 
 Meu site feito em heroku
 https://course-javasb-franklyn.herokuapp.com/
+
+Link do meu vídeo
+[Clique aqui](https://youtu.be/ks6_Jq1zlAM)
